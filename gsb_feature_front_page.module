@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Feature Front page feature.
+ */
+
+include_once 'gsb_feature_front_page.features.inc';

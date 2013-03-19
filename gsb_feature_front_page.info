@@ -1,0 +1,11 @@
+name = GSB Feature Front page
+description = Front page
+core = 7.x
+package = GSB
+version = 7.x-1.0
+project = gsb_feature_front_page
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_pages][] = front_page
